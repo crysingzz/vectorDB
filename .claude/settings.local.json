@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/bin/pip show *)",
+      "Bash(.venv/bin/python -c ' *)",
+      "Bash(.venv/bin/python main.py info)",
+      "Bash(.venv/bin/python main.py search --help)"
+    ]
+  }
+}
